@@ -30,7 +30,7 @@ LaTeX 为 TEX 基础上的一套格式，令作者能够使用预定义的专业
   - [TeXstudio](http://texstudio.sourceforge.net/): 首推，高效编辑环境
   - [Overleaf](https://www.overleaf.com/)：在线、协同，部分 WYSIWYG
   - [BaKoMa](http://www.bakoma-tex.com): 真正的 WYSIWYG，但收费
-  - 其它文本编辑器：VS Code、Sublime Text、Atom，配合相应插件也可实现一键编辑预览
+  - 其它文本编辑器：VS Code、Sublime Text、Atom，配合相应插件也可实现丰富功能，扩展性更强
   
 ## 基本语法
 
@@ -59,11 +59,15 @@ LaTeX 为 TEX 基础上的一套格式，令作者能够使用预定义的专业
   - `\usepackage{}` 调用宏包
 - 正文内容放在 `\begin{document}` 与`\end{document}` 之间
 
-- 英文文档案例
-- 中文文档处理
+- [英文文档案例](./example/example.tex)
+- [中文文档案例](./example/example_zh.tex)：借助 `ctex` 宏包，不是**CTeX**发行版
+  - 建议先阅读 ctex 文档
+- [幻灯片制作](./example/example_beamer.tex)：beamer
+  - beamer 文档有详细教程
 
 ## Tips
 
+- 投稿时根据相应要求，一般会有样式文件、配套手册
 - 文档查看：`texdoc` 命令查看
 - 数学公式
   - 借助编辑器选择符号
@@ -75,10 +79,12 @@ LaTeX 为 TEX 基础上的一套格式，令作者能够使用预定义的专业
   ![tikz](./example/tikz_example.png)
 - 表格可以借助[在线工具](http://www.tablesgenerator.com/latex_tables)
 - 书籍、毕业论文等，可将源代码分割成不同文件，使用 `\include{filename}` 组合
+- `latexdiff` 可生成文档修订
+  - `latexdiff origin.tex modify.tex >diff.tex`
 - 多人协同可以用在线的 `Overleaf`
 - 遇到问题怎么办
   - 除错：lshort-zh-cn 中附录B
-  - 搜索问题
+  - 搜索引擎
 
 ## 资源
 
