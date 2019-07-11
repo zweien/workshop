@@ -79,7 +79,7 @@ LaTeX 为 TEX 基础上的一套格式，令作者能够使用预定义的专业
   ![tikz](./example/tikz_example.png)
 - 表格可以借助[在线工具](http://www.tablesgenerator.com/latex_tables)
 - 书籍、毕业论文等，可将源代码分割成不同文件，使用 `\include{filename}` 组合
-- `latexdiff` 可生成文档修订
+- `latexdiff` 可生成[文档修订](./example/diff/example_new.pdf)
   - `latexdiff origin.tex modify.tex >diff.tex`
 - 多人协同可以用在线的 `Overleaf`
 - 遇到问题怎么办
