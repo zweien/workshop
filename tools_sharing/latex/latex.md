@@ -1,6 +1,3 @@
-[[TOC]]
-
----
 
 # LaTeX 使用心得
 
@@ -41,6 +38,7 @@ LaTeX 为 TEX 基础上的一套格式，令作者能够使用预定义的专业
 
 - 以 \ 开头
 - 大小写敏感
+- `%` 注释
 - 命令参数，用 `{}` 表示
   - 可选参数 `[]` 表示
 - 环境：局部生效，`\begin` 与 `\end` 包裹，环境名成对出现
@@ -53,21 +51,39 @@ LaTeX 为 TEX 基础上的一套格式，令作者能够使用预定义的专业
 
 ### 文档结构
 
-- 导言区
-  - 以 `\documentclass` 命令开头
-  - `\usepackage{ }` 调用宏包
+- **导言区**：对文档的全局设置命令、宏包调用
+  - `\documentclass{}` 文档类型
+    - 自带 article、report、book、beamer
+    - 选用期刊、学校提供的样式文件
+    - 例如：`\documentclass[11pt,twoside,a4paper]{article}`
+  - `\usepackage{}` 调用宏包
+- 正文内容放在 `\begin{document}` 与`\end{document}` 之间
 
+- 英文文档案例
+- 中文文档处理
 
 ## Tips
 
+- 文档查看：`texdoc` 命令查看
+- 数学公式
+  - 借助编辑器选择符号
+  - Mathpix 在线识别
+  - Detexify 在线绘制
+  - Short Math Guide
 - 绘图
+  - TikZ，需要学习特殊绘图语言
+  ![tikz](./example/tikz_example.png)
+- 表格可以借助[在线工具](http://www.tablesgenerator.com/latex_tables)
+- 书籍、毕业论文等，可将源代码分割成不同文件，使用 `\include{filename}` 组合
+- 多人协同可以用在线的 `Overleaf`
+- 遇到问题怎么办
+  - 除错：lshort-zh-cn 中附录B
+  - 搜索问题
 
 ## 资源
 
-- 一份不太简短的LATEX2ε介绍，系统自带`texdoc`
-- 数学公式 Short math guide for latex，系统自带：`texdoc short-math-guid`
+- 一份不太简短的LATEX2ε介绍，系统自带：`texdoc lshort-zh-cn`
+- 数学公式参考文档 `texdoc short-math-guid`
 - [Detexify](http://detexify.kirelabs.org/classify.html): 识别手绘数学符号
 - [Mathpix](https://mathpix.com/)：公式 OCR，推荐，特别适用于文献中复杂公式的识别
 - [beamer theme matrix](https://hartwork.org/beamer-theme-matrix/): beamer 自带样式展示
-
-[^intro]: sdf

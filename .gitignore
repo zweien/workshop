@@ -1,7 +1,7 @@
 .idea
-latex/*.bbl
-latex/*.aux
-latex/*.blg
-latex/*.log
-latex/*.out
-latex/*.gz
+*.bbl
+*.aux
+*.blg
+*.log
+*.out
+*.gz

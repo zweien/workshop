@@ -1,0 +1,8 @@
+\begin{thebibliography}{1}
+
+\bibitem{Silver2016Mastering}
+David Silver, Aja Huang, Chris~J. Maddison, Arthur Guez, and Demis Hassabis.
+\newblock Mastering the game of {Go} with deep neural networks and tree search.
+\newblock {\em Nature}, 529(7587):484--489, 2016.
+
+\end{thebibliography}
