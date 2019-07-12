@@ -24,7 +24,9 @@
   - [高斯世界下的Machine Learning](https://zhuanlan.zhihu.com/gpml2016)，知乎专栏
 - Course
   - [Probabilistic Machine Learning 4f13 Michaelmas 2018](http://mlg.eng.cam.ac.uk/teaching/4f13/1819/), University of Cambridge
-  - [](https://duvenaud.github.io/sta414/)
+  - [Statistical Methods for Machine Learning II
+ sta414](https://duvenaud.github.io/sta414/), University of Toronto
+  
 - 相关学者
   - [Carl Edward Rasmussen](http://mlg.eng.cam.ac.uk/carl/): Cambridge, gpml 作者
   - [Zoubin Ghahramani](http://mlg.eng.cam.ac.uk/zoubin/): Cambridge
