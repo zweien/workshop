@@ -1,7 +1,7 @@
 # Tutorial: Gaussian Process Regression
 
 > **Gaussian process regression** is a Bayesian model for **nonparametric** regression. (That is, nonparametric in the sense that the complexity of the regression function grows with the amount of data.) The model places a prior directly on the output values without reference to an underlying parametric model. (from [Metacademy](https://metacademy.org/graphs/concepts/gaussian_process_regression))
-![gp](.\Gaussian_Process_Regression.png)
+![gp](./Gaussian_Process_Regression.png)
 
 - 要点
   - [Gaussian processes (GP)](https://metacademy.org/graphs/concepts/gaussian_process_regression#focus=gaussian_processes&mode=learn), [wiki](https://en.wikipedia.org/wiki/Gaussian_process): 简单来说就是多维正态变量的推广
