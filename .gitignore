@@ -8,4 +8,4 @@
 *.snm
 *.toc
 *.nav
-*.ipynb_checkpoints
+**/.ipynb_checkpoints/
