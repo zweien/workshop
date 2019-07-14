@@ -13,6 +13,18 @@ the problem of ﬁnding suitable properties for the covariance function.
   - Inference of continuous values with a Gaussian process prior is known as **Gaussian process regression**, or **kriging**
   - Extending Gaussian process regression to **multiple** target variables is known as **cokriging**.
   - Gaussian process regression can be further extended to address learning tasks in both supervised (e.g. **probabilistic classification**) and unsupervised (e.g. **manifold learning** [prml]) learning frameworks.
+- 应用场景：
+  - Active learning
+  - Multi-task learning
+  - Manifold learning
+  - Optimization
+  - Parameter estimation
+  - Reinforcement learning
+- 方向
+  - Scalable GP
+  - Sparse variational GP
+  - Multi-task GP
+  - Deep GP
   
 ## 资源
 
@@ -36,3 +48,4 @@ the problem of ﬁnding suitable properties for the covariance function.
   - [Kevin P Murphy](https://www.cs.ubc.ca/~murphyk/): google
   - [David Duvenaud](http://www.cs.toronto.edu/~duvenaud/): University of Toronto
   - [Nicolas Durrande](https://sites.google.com/site/nicolasdurrandehomepage/home)
+  - [Radford Neal](http://www.cs.utoronto.ca/~radford/) University of Toronto
