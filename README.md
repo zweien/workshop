@@ -6,6 +6,7 @@
 - [Built-in Data Structures, Functions, and Files](https://gitee.com/zweien/pydata-book/blob/2nd-edition/ch03.ipynb) (from pydata-botok)
 - [NumPy Basics: Arrays and Vectorized Computation](https://gitee.com/zweien/pydata-book/blob/2nd-edition/ch04.ipynb) (from pydata-book)
 - [pydata-book 中文版](https://github.com/iamseancheney/python_for_data_analysis_2nd_chinese_version)
+- [廖雪峰 Python 教程](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 ## Tutorial
 
