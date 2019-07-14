@@ -49,3 +49,4 @@ the problem of ﬁnding suitable properties for the covariance function.
   - [David Duvenaud](http://www.cs.toronto.edu/~duvenaud/): University of Toronto
   - [Nicolas Durrande](https://sites.google.com/site/nicolasdurrandehomepage/home)
   - [Radford Neal](http://www.cs.utoronto.ca/~radford/) University of Toronto
+  - [Neil Lawrence](http://inverseprobability.com/)
