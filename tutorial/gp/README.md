@@ -22,7 +22,7 @@ the problem of ﬁnding suitable properties for the covariance function.
   - Reinforcement learning
 - 方向
   - Scalable GP
-  - Sparse variational GP
+  - Sparse GP, variational GP
   - Multi-task GP
   - Deep GP
   
